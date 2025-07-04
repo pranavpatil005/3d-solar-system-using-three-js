@@ -1,93 +1,46 @@
-# 🌌 Solar System 3D - React + Three.js
+# Solar System 3D - React + Three.js
 
-This project is a 3D simulation of the solar system built using **React**, **Three.js**, and **@react-three/fiber**.
+This project is a 3D simulation of the solar system using React, Three.js, and @react-three/fiber.
 
----
+## How to Run This Project
 
-## 🚀 How to Run This Project
+1. Unzip the project folder.
 
-Follow these steps to set up and run the project locally:
+2. Open the terminal and navigate to the project folder.
 
-### 1. 🔓 Unzip the Project
-Extract the project zip file to a folder on your system.
-
----
-
-### 2. 📁 Open the Project
-
-Open the project folder in your terminal or code editor.
-
-Then navigate to the `main` folder:
+3. Go to the `main` folder:
 
 ```bash
 cd main
 ```
 
-Then navigate into the `src` folder:
+4. Go to the `src` folder:
 
 ```bash
 cd src
 ```
 
----
-
-### 3. 📦 Install Dependencies
-
-Run the following command to install all required packages:
+5. Install the required dependencies:
 
 ```bash
 npm install
 ```
 
-This will install:
-
-- `react`
-- `three`
-- `@react-three/fiber`
-- `@react-three/drei`
-- `react-scripts` (for CRA)
-
----
-
-### 4. ▶️ Start the Project
-
-Once installed, start the development server:
+6. Start the development server:
 
 ```bash
 npm start
 ```
 
----
-
-### 5. 🌐 Open in Browser
-
-Visit:
+7. Open your browser and go to:
 
 ```
 http://localhost:3000
 ```
 
-You’ll see the interactive 3D Solar System in action!
+The project will now be running.
 
----
+## Notes
 
-## 📌 Notes
-
-- If you see any errors like `react-scripts not found`, make sure you're in the correct folder and have run `npm install`.
-- Make sure Node.js is installed on your machine (v16+ recommended).
-
----
-
-## 📁 Folder Structure (Example)
-
-```
-main/
-└── src/
-    ├── App.js
-    ├── index.js
-    └── components/
-```
-
----
-
-Made with ❤️ using React + Three.js.
+- Make sure you have Node.js installed.
+- If you see any missing module errors, run `npm install` again from the `src` folder.
